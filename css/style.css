@@ -1,0 +1,19 @@
+:root {
+    --lime: #76D95B;
+    --limedark: #68c050;
+    --aqua: #0583F2;
+    --blue: #056CF2;
+    --blue75: #056cf2c7;
+    --blue50: #056cf28b;
+    --white: #F2F2F2;
+    --brown: #BF9780;
+}
+
+.button-lime {
+    background-color: var(--lime);
+    color: white;
+}
+
+.button-lime:hover {
+    background-color: var(--limedark);
+}
