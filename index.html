@@ -1,1 +1,139 @@
-<?php include 'header.php'; include 'body.php'; include 'footer.php'; ?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <style type="text/tailwindcss">
+        @layer utilities {
+      .content-auto {
+        content-visibility: auto;
+      }
+    }
+  </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wasesa</title>
+</head>
+
+<body>
+    <!--Ini kode untuk navbar-->
+    <nav class="navbar navbar-expand-md border-bottom mb-4 col" style="background-color: #f5f5f5;">
+        <div class="container-fluid">
+            <!-- <a> ... </a> adalah kode untuk logo wasesa dan teks wasesa-->
+            <a class="navbar-brand fw-bold d-flex" href="#">
+                <img src="img/Wasesa Logo.png" alt="Logo" width="40px" height="40px" class="d-inline-block rounded">
+                <span class="ms-2 align-self-center">WASESA</span>
+                <span></span>
+            </a>
+            <span class="navbar-text" width="35%">
+                <button class="btn btn-outline-dark" type="button">Login</button>
+                <button class="btn btn-dark" type="button"><span class="fw-bold">Register</span></button>
+            </span>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div><img class="rounded mx-auto d-block" width="400" src="img/Selamat datang di Wasesa rev.png"
+                        alt="Welcome"></div>
+                <div class="fw-bold h2 text-center mb-2"> Selamat Datang di Wasesa</div>
+                <div class="text-center mb-4"><span class="fw-bold"> Apa itu wasesa? </span><br>Wasesa adalah website
+                    yang dibuat oleh KIR<br>untuk menyediakan berita, cerita, puisi dan hal-hal<br>menarik lainnya baik
+                    dari internal maupun eksternal.</div>
+            </div>
+            <div class="container row mt-4 mb-4 d-flex col">
+                <div class="col align-self-center"><img class="mx-auto d-block" src="img/Q&A rev.png" alt="Q&A"
+                        width="200"></div>
+                <div class="col d-flex flex-column position-relative align-self-center">
+                    <div class="fw-bold h6 text-center align-self-center mb-3">Masih Bingung? Klik tombol dibawah ini
+                        untuk jawab semua pertanyaanmu!</div>
+                    <div class="align-self-center"><button class="btn btn-primary">Question and Answer</button></div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-2 mb-4 mx-2">
+            <div class="row row-cols-1 justify-content-center">
+                <div class="col card mb-1 mt-1 mx-1" style="width: 300px;">
+                    <img src="img/Prestasi SMANSE.png" class="card-img-top" alt="Prestasi">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Sang Juara</h5>
+                        <p class="card-text">Inilah siswa-siswi SMA Negeri 11 Semarang yang telah berjuang demi meraih
+                            prestasi!</p>
+                        <a href="#" class="btn btn-primary">Click for view</a>
+                    </div>
+                </div>
+                <div class="col card mb-1 mt-1 mx-1 " style="width: 300px;">
+                    <img src="img/Informasi Lomba.png" class="card-img-top" alt="Lomba">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Yuk Ikut Lomba</h5>
+                        <p class="card-text">Info lomba-lomba terbaru nih! Banyak lomba gratisnya lhooo!</p>
+                        <a href="#" class="btn btn-info" style="color: white;">Click for view</a>
+                    </div>
+                </div>
+                <div class="col card mb-1 mt-1 mx-1 " style="width: 300px;">
+                    <img src="img/Bacaan Gratis.png" class="card-img-top" alt="Prestasi">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Bacaan Gratis</h5>
+                        <p class="card-text">Banyak cerpen, puisi dan karya sastra lain yang menarik dan pastinya bisa
+                            jadi sumber inspirasi!</p>
+                        <a href="#" class="btn btn-success">Click for view</a>
+                    </div>
+                </div>
+                <div class="col card mb-1 mt-1 mx-1 " style="width: 300px;">
+                    <img src="img/Berita Terbaru.png" class="card-img-top" alt="Prestasi">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Berita Terbaru</h5>
+                        <p class="card-text">Gudangnya berita terupdate baik dari internal maupun eksternal yang
+                            pastinya menarik!</p>
+                        <a href="#" class="btn btn-danger">Click for view</a>
+                    </div>
+                </div>
+                <div class="col card mb-1 mt-1 mx-1 " style="width: 300px;">
+                    <img src="img/Kegiatan KIR.png" class="card-img-top" alt="Prestasi">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Dokumentasi Kegiatan KIR</h5>
+                        <p class="card-text">Semua kegiatan yang pernah dilaksanakan di KIR terkumpul disini! Setelah
+                            lihat yakin masih ga mau masuk KIR?</p>
+                        <a href="#" class="btn btn-warning" style="color: white;">Click for view</a>
+                    </div>
+                </div>
+                <div class="col card mb-1 mt-1 mx-1 " style="width: 300px;">
+                    <img src="img/List Kegiatan Mendatang.png" class="card-img-top" alt="Prestasi">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Kegiatan Mendatang KIR</h5>
+                        <p class="card-text">Buat kamu yang sering lupa jadwal kegiatan bisa di cek disini yah!</p>
+                        <a href="#" class="btn btn-success">Click for view</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid text-bg-dark">
+        <br>
+        <div class="d-flex flex-column text-center">
+            <div class=""><img src="img/icons8-instagram-144.png" alt="Instagram" width="30"> Official Instagram: <a
+                    class="link-opacity-50-hover" href="">@kir.smanse</a></div>
+            <div class=""></div>
+            <div class=""></div>
+            <div class=""><a target="_blank" href="https://icons8.com/icon/Xy10Jcu1L2Su/instagram">Instagram</a> icon by
+                <a target="_blank" href="https://icons8.com">Icons8</a></div>
+            <div class="text-secondary my-3">
+                This Website Is Maintained By KIR SMA Negeri 11 Semarang
+                <br> Web Developer: Reginald Felix D
+                <br> Contact Developer: +6285727232240
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.tailwindcss.com"></script>
